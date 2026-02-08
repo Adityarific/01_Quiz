@@ -48,7 +48,25 @@ body {
     transition: all 0.3s;
 }
 .btn:hover {
-    background: #242424;
+    background: #001e4d;
     color: white;
-    
+}
+.next{
+   background: none;
+    border: 0.5px solid black;
+    display:flex;
+    margin: 15px auto 0px;
+    width: 30%;
+    justify-content: center;
+    font-weight: 500;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    transition: all 0.3s;
+    justify-items: center;
+}
+.next:hover {
+    background: green;
+    color: white;
 }
